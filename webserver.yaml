@@ -1,6 +1,6 @@
 ---
 - name: Configuring Web Server
-  hosts: linux1
+  hosts: all
   tasks:
   - name: Installing the package
     yum:
