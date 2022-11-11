@@ -8,7 +8,7 @@
      state: present
   - name: Creating The Content
     copy:
-     content: "Hello From Ansible Tower"
+     content: "Hello From Ansible Tower Version2 "
      dest: /var/www/html/index.html
 
   - name: Starting the Service
