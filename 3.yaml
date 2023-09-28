@@ -1,0 +1,6 @@
+---
+- hosts: all  
+  tasks: 
+  - service: 
+     name: httpd
+     state: present 
