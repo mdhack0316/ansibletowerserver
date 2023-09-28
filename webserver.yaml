@@ -9,13 +9,10 @@
   - name: Creating The Content
     copy:
      content: "Hello From Ansible Tower Version2 "
-     dest: /var/www/html/index.html
+     dest: /var/www/html/mayank.html
 
   - name: Starting the Service
     service:
      name: httpd
      state: started
      enabled: true
-  - name: printint name
-    debug: 
-     var: databaseusername
