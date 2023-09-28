@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks: 
+  - name: Creating One folder
+    file: 
+     path: /mayank
+     state: directory
