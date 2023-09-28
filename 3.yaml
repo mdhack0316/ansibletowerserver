@@ -3,4 +3,4 @@
   tasks: 
   - service: 
      name: httpd
-     state: started
+     state: restarted
