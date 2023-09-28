@@ -3,3 +3,5 @@
   tasks: 
   - debug: 
      var: ansible_test
+  - debug: 
+     var: mayank_test
