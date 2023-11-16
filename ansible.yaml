@@ -3,4 +3,4 @@
   hosts: all 
   tasks: 
   - debug: 
-     msg:  Hello From  "{{ ansible_hostsname }}"
+     msg:  Hello From  "{{ ansible_hostname }}"
